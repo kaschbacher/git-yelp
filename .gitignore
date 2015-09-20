@@ -2,3 +2,6 @@
 *.html
 *.xls
 *.xlsx
+doctor.dict
+lsi.dict
+lsi.dict.projection
