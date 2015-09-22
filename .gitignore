@@ -10,3 +10,4 @@ Exploring_stopwords.ipynb
 *.dict
 vis_data.p
 doctor_bow_for_lda.mm.index
+Scale_features.ipynb
