@@ -13,8 +13,6 @@ doctor_bow_for_lda.mm.index
 Scale_features.ipynb
 norm_gammas.p
 bid_gmeans.p
-ortho_review_df.p
-ortho_business_df.p
 KAsql.pyc
 APIkeys.ipynb
 APIkeys.py
