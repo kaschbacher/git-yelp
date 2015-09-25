@@ -4,10 +4,11 @@ def query_SQL(sql):
     con = False
     rows = []
     try:
-        con = pymysql.connect(host='localhost', port=3307, user='root', passwd='', db='yelpdata')
+        con = pymysql.connect(host='localhost', port=3307, user='root', passwd='', db='ortho')
         with con:
             cur = con.cursor()
-            database = 'USE yelpdata;'
+            database = 'USE ortho;'
+            print database
             cur.execute(database)
             #sql = 'SELECT DISTINCT(yelp_id) FROM business;' 
             #print(sql)

@@ -1,0 +1,21 @@
+# Guide to Yelp Project IPYNB Files
+
+PART I: Get and store the data
+
+1.  YelpAPI - pulls businesses for orthopedists and populates the business table for mysql
+2.  Extract_Reviews - loads from mysql business to obtain yelp_id, then scrapes reviews 
+    from each doctor's site.  Stores pickled dataframe objects for ortho_business 
+    and ortho_reviews
+3.  Reviews_toMySQL - loads the pickled ortho_reviews DF and uses iterrows to input each 
+    row into the ortho.review mysql database.  Note, tried SQLAlchemy and df-to-sql but 
+    couldn't get those to work.
+    
+*** 300 orthopedists in business table and 13081 reviews  (all SF area)
+
+
+PART II:  Analyze the data with LDA
+
+4.  NLP-All-Reviews_LDA - to analyze the data and pickle the final lda object
+
+    
+    
