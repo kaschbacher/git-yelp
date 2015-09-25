@@ -16,6 +16,15 @@ PART I: Get and store the data
 PART II:  Analyze the data with LDA
 
 4.  NLP-All-Reviews_LDA - to analyze the data and pickle the final lda object
+5.  Representative_reviews -  Call up reviews most representative for a given topic
+6.  LDA_Apply - Apply the LDA model to a new review you haven't seen before (for validation)
 
-    
+
+
+PART III:  VISUAL GRAPHICS & VALIDATION
+
+1.  MySQL_Import - graphs business stars by reviews with sns
+2.  Display_vis_data - display the interactive visualization of lda
+3.  PCA_plot - use PCA to reduce the topic space dimensionality and plot it by stars
+
     
