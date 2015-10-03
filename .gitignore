@@ -6,6 +6,7 @@ doctor.dict
 lsi.dict
 lsi.dict.projection
 oauth_credentials
+oauth_credentials.txt
 Exploring_stopwords.ipynb
 *.dict
 vis_data.p
@@ -19,3 +20,4 @@ APIkeys.py
 Untitled.ipynb
 temp.html
 debug.ipynb
+/older files*

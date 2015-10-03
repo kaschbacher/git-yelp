@@ -9,8 +9,6 @@ PART I: Get and store the data
 3.  Reviews_toMySQL - loads the pickled ortho_reviews DF and uses iterrows to input each 
     row into the ortho.review mysql database.  Note, tried SQLAlchemy and df-to-sql but 
     couldn't get those to work.
-    
-*** 300 orthopedists in business table and 13081 reviews  (all SF area)
 
 
 PART II:  Analyze the data with LDA
